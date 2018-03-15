@@ -12,7 +12,6 @@ function palindrome(str) {
     return char === str[str.length - 1 - i]
   })
 }
-
 module.exports = palindrome;
 
 // Method 1 :
